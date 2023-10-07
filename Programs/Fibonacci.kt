@@ -8,7 +8,7 @@ private fun printFibonacci(no: String) {
     var b = 1
     var temp = 0
     print("0, 1")
-    while (i >= 0) {
+    while (i > 2) {
         print(", ${a + b}")
         temp = a
         a = b
